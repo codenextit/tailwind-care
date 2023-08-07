@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html class="m-0 h-full w-full overflow-x-hidden p-0" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./all-images/landing-page/rocket-icon.svg"
+      type="image/x-icon"
+    />
+    <!-- todo: font-family: 'Quicksand', ======================================================-->
+    <!-- todo: font-family: 'Quicksand', ======================================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- todo: font-family: 'Quicksand',=======================================================-->
+    <!-- todo: font-family: 'Quicksand',=======================================================-->
+    <link rel="stylesheet" href="./src/css/tailwind.css" />
+    <link rel="stylesheet" href="./src/css/landing-page.css" />
+    <title>Compassion Care</title>
+  </head>
+
+  <body class="m-0 h-full w-full overflow-x-hidden p-0">
+    <section class="landing-page-img-breakpoints h-[46.5rem] bg-custom-blue">
+      <header class="">
+        <nav
+          class="flex justify-between font-Quicksand text-base font-semibold text-white lg:h-28"
+        >
+          <div class="navbr:ml-8">
+            <img
+              class="w-36 font-Quicksand sm:w-48 lg:w-56"
+              src="./all-images/landing-page/compassion-care-logo.svg"
+              alt="Compassion Care Logo"
+            />
+          </div>
+          <div
+            id="navbar"
+            class="fixed bottom-0 right-[-999px] top-0 rounded-lg bg-custom-blue bg-opacity-50 backdrop-blur-sm navbr:relative navbr:bottom-auto navbr:left-auto navbr:right-16 navbr:top-8 navbr:h-20 navbr:w-[49rem]"
+          >
+            <ul
+              class="flex w-[100%] flex-col gap-4 px-12 py-[min(30vh,10rem)] sm:px-20 navbr:flex-row navbr:items-center navbr:justify-between navbr:px-8 navbr:py-5"
+            >
+              <li><a class="" href="">Home</a></li>
+              <li><a class="" href="">About Us</a></li>
+              <li><a class="" href="">Service</a></li>
+              <li><a class="" href="">Contact Us</a></li>
+              <li>
+                <button
+                  class="rounded-full bg-white px-8 py-2 text-custom-violet"
+                  type="button"
+                >
+                  Email
+                </button>
+              </li>
+              <li>
+                <button
+                  class="rounded-full bg-custom-violet px-5 py-2 text-white navbr:-ml-10"
+                  type="button"
+                >
+                  Call Now
+                </button>
+              </li>
+            </ul>
+          </div>
+          <ion-icon
+            onclick="onToggleNavMenu(this)"
+            name="menu"
+            class="fixed right-8 top-8 text-4xl navbr:hidden"
+          ></ion-icon>
+        </nav>
+      </header>
+      <div class="mt-20 sm:mt-24 md:ml-16 md:mt-28">
+        <div
+          class="text-center font-Gilroy-Black text-3xl leading-10 sm:text-4xl sm:leading-[3rem] md:text-left md:text-5xl md:leading-[3.5rem] lg:leading-[4rem]"
+        >
+          <h1 class="inline bg-custom-blue px-3 text-white">Oncs You Choose</h1>
+          <br />
+          <h1 class="inline bg-custom-blue px-3 text-white">
+            <span class="pr-3 xs:pr-0">Hope, Anything's</span>
+            <span class="pl-3 xs:pl-0">Possible</span>
+          </h1>
+        </div>
+        <div class="mt-12 text-center font-Quicksand md:text-left">
+          <p class="px-3 text-white">
+            Aliquam neque Iqsum, semper
+            <br />
+            sodales ac, commodo dignissim
+            <br />
+            Morbi vitae purus ut lorem
+            <br />
+            tempor.
+          </p>
+        </div>
+        <div
+          class="mt-14 flex items-center justify-center md:ml-3 md:justify-start"
+        >
+          <button
+            type="button"
+            class="flex items-center justify-around rounded-full bg-white py-[0.20rem] pl-1 pr-3 font-Quicksand text-sm font-semibold text-custom-blue xs:py-1 xs:pl-1 xs:pr-4 sm:text-base md:py-2 md:pl-2 md:pr-6 md:text-xl"
+          >
+            <img
+              class="mr-1 w-10 xs:mr-2 sm:w-12 md:mr-4"
+              src="./all-images/landing-page/rocket-icon.svg"
+              alt="rocket"
+            />
+            Get Started
+          </button>
+          <button
+            type="button"
+            class="ml-4 rounded-full border-[1px] border-white px-4 py-3 font-Quicksand text-sm text-white xs:px-6 xs:py-3 sm:py-4 sm:text-base md:ml-8 md:px-8 md:py-4 md:text-xl"
+          >
+            Read More
+            <span class="text-sm font-extralight xs:ml-2"
+              ><ion-icon name="chevron-forward"></ion-icon
+            ></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="-mb-[17%]">
+      <img
+        src="./all-images/landing-page/why-choose-us-upper.svg"
+        alt=""
+        class="w-full"
+      />
+    </div>
+    <section>
+      <div
+        class="mx-auto mb-8 flex w-64 justify-around border-b-[1px] border-custom-black pb-2 font-Quicksand font-bold xs:w-80 sm:w-96 md:w-[28rem] md:text-lg"
+      >
+        <button
+          class="w-32 rounded-full bg-custom-blue px-4 py-3 text-xs text-white xs:w-40 xs:text-base sm:w-48"
+        >
+          Why Choose US
+        </button>
+        <button
+          class="w-32 text-xs text-custom-black xs:w-40 xs:text-base sm:w-48"
+        >
+          About US
+        </button>
+      </div>
+      <!-- !==================================================================================================== -->
+      <div class="m-auto md:hidden">
+        <div
+          class="min-w-72 mx-4 rounded-xl bg-custom-white p-7 shadow-xl xs:mx-8 sm:mx-12"
+        >
+          <h1 class="font-GilroyBlack text-4xl">Why Choose Us</h1>
+          <p class="mt-8 font-Quicksand leading-7">
+            Est sed dolores sed ea lorem et at dolore lorem. Labore no accusam
+            ipsum takimata diam elitr magna justo. Et labore et takimata et
+            clita eirmod. Dolores kasd no takimata sed diam dolor, sanctus et
+            kasd dolor consetetur diam et lorem gubergren. Diam sadipscing lorem
+            at voluptua at. Lorem consetetur.
+          </p>
+        </div>
+        <div class="-mt-6">
+          <img
+            src="./all-images/landing-page/why-choose-us-small.svg"
+            alt=""
+            class="m-auto w-60 rounded-xl bg-custom-blue bg-opacity-30 p-4 shadow-xl xs:w-72 sm:w-96"
+          />
+        </div>
+      </div>
+      <!-- !================================================================================================= -->
+      <div
+        class="relative -z-50 mx-auto hidden h-96 w-[45rem] md:block lg:mt-24 lg:scale-125 xl:mt-36 xl:scale-150"
+        style="
+          background-image: url(./all-images/landing-page/why-choose-us-large.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <div
+          class="absolute text-custom-black"
+          style="
+            top: 75%;
+            left: 107%;
+            transform: translate(-75%, -107%);
+            width: 29rem;
+          "
+        >
+          <h1 class="font-GilroyBlack text-2xl">Why Choose Us</h1>
+          <p class="mt-8 font-Quicksand text-sm leading-7">
+            Est sed dolres sed ea lorem et at dolore.
+            <br />
+            Labore no accusam ipsum tamata diam
+            <br />
+            justo. Et labore et takimata et clita eiod.
+            <br />
+            kasd no takimata sed diam dolor, sancs
+            <br />
+            consetetur diam et lorem gubergren.
+            <br />
+            at voluptua at. Lorem consetetur.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="-mb-[39%] -mt-16">
+      <img
+        src="./all-images/landing-page/why-choose-us-lower.svg"
+        alt=""
+        class="w-full"
+      />
+    </div>
+    <section>
+      <div
+        class="mx-auto flex justify-around font-Gilroy-Black text-2xl font-black text-custom-black sm:text-3xl md:text-4xl"
+      >
+        Our Service
+      </div>
+      <div class="our-services font-Gilroy-Black font-black text-custom-black">
+        <div class="service-container">
+          <div class="tamplet grid-personal-care">
+            <img
+              src="./all-images/landing-page/service-personal-care.svg"
+              alt=""
+            />
+            <!--?--- DIV IMAGE ----->
+            <p>Personal Care</p>
+          </div>
+          <div class="tamplet grid-personal-care-arrow">
+            <img
+              src="./all-images/landing-page/service-personal-care-arrow.svg"
+              alt=""
+            />
+            <!--!--- DIV ARROW ----->
+          </div>
+          <div class="tamplet grid-community-nursing-arrow">
+            <img
+              src="./all-images/landing-page/service-community-nursing-arrow.svg"
+              alt=""
+            />
+            <!--!--- DIV ARROW ----->
+          </div>
+          <div class="tamplet grid-community-nursing">
+            <img
+              src="./all-images/landing-page/service-community-nursing.svg"
+              alt=""
+            />
+            <!--?--- DIV IMAGE ----->
+            <p>Community Nursing</p>
+          </div>
+          <div class="tamplet grid-household-tasks">
+            <img
+              src="./all-images/landing-page/service-housesold-tasks.svg"
+              alt=""
+            />
+            <!--?--- DIV IMAGE ----->
+            <p class="text-white">Household Tasks</p>
+          </div>
+          <div class="tamplet grid-household-tasks-arrow">
+            <img
+              src="./all-images/landing-page/service-housesold-tasks-arrow.svg"
+              alt=""
+            />
+            <!--!--- DIV ARROW ----->
+          </div>
+          <div
+            class="tamplet-center grid-cernter font-Gilroy-Medium font-medium"
+          >
+            <img src="./all-images/landing-page/service-center.svg" alt="" />
+            <a href="#"
+              >Learn More
+              <ion-icon class="-mb-1" name="chevron-forward"></ion-icon
+            ></a>
+            <!--?--- DIV IMAGE ----->
+          </div>
+          <div class="tamplet grid-social-community-arrow">
+            <img
+              src="./all-images/landing-page/service-social-community-arrow.svg"
+              alt=""
+            />
+            <!--!--- DIV ARROW ----->
+          </div>
+          <div class="tamplet grid-social-community">
+            <img
+              src="./all-images/landing-page/service-social-community.svg"
+              alt=""
+            />
+            <!--?--- DIV IMAGE ----->
+            <p>
+              Social & Community <br />
+              Participation
+            </p>
+          </div>
+          <div class="tamplet grid-supported-independent-arrow">
+            <img
+              src="./all-images/landing-page/service-support-independent-arrow.svg"
+              alt=""
+            />
+            <!--!--- DIV ARROW ----->
+          </div>
+          <div class="tamplet grid-transport-assistance-arrow">
+            <img
+              src="./all-images/landing-page/service-transport-assistance-arrow.svg"
+              alt=""
+            />
+            <!--!--- DIV ARROW ----->
+          </div>
+          <div class="tamplet grid-supported-independent">
+            <img
+              src="./all-images/landing-page/service-support-independent.svg"
+              alt=""
+            />
+            <!--?--- DIV IMAGE ----->
+            <p>
+              Supported Independentb <br />
+              Living
+            </p>
+          </div>
+          <div class="tamplet grid-transport-assistance">
+            <img
+              src="./all-images/landing-page/service-transport-assistance.svg"
+              alt=""
+            />
+            <!--?--- DIV IMAGE ----->
+            <p>Transport Assistance</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="-z-50 -mb-[17%] -mt-52">
+      <img
+        src="./all-images/landing-page/service-lower.svg"
+        alt=""
+        class="w-full"
+      />
+    </div>
+    <section class="">
+      <div
+        class="mx-auto mb-12 flex justify-around font-Gilroy-Black text-2xl font-black text-custom-black sm:text-3xl md:text-4xl"
+      >
+        Our Values
+      </div>
+      <div class="">
+        <div class="mx-36 hidden lg:block">
+          <img
+            class="mx-auto"
+            src="./all-images/landing-page/values-information-tree.svg"
+            alt=""
+          />
+        </div>
+        <div
+          class="mx-auto max-w-sm flex-1 p-5 sm:max-w-3xl sm:p-10 lg:max-w-7xl"
+        >
+          <div
+            class="grid grid-cols-1 gap-x-4 gap-y-14 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-14 lg:grid-cols-4"
+          >
+            <div class="rounded-xl bg-custom-blue">
+              <div
+                class="mx-auto -mt-[14%] h-20 w-20 rounded-full border-[2rem] border-solid border-white bg-custom-blue"
+              ></div>
+              <h1
+                class="mt-10 text-center font-Gilroy-Bold text-2xl text-white"
+              >
+                Familiar Faces
+              </h1>
+              <p
+                class="mx-8 mt-6 text-center font-Quicksand font-thin leading-7 text-white"
+              >
+                Walten entwöhntes fühl bang lied noch ach. So gesänge und ihr
+                Walten entwöhntes fühl bang lied noch ach. So gesänge und ihr
+              </p>
+              <div class="flex justify-center py-8">
+                <button
+                  class="rounded-full bg-white px-5 py-3 font-Quicksand text-sm text-custom-blue xs:px-8 xs:py-3 sm:py-4 sm:text-base"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div class="rounded-xl bg-custom-blue">
+              <div
+                class="mx-auto -mt-[14%] h-20 w-20 rounded-full border-[2rem] border-solid border-white bg-custom-blue"
+              ></div>
+              <h1
+                class="mt-10 text-center font-Gilroy-Bold text-2xl text-white"
+              >
+                Compassionate Care
+              </h1>
+              <p
+                class="mx-8 mt-6 text-center font-Quicksand font-thin leading-7 text-white"
+              >
+                Walten entwöhntes fühl bang lied noch ach. So gesänge und ihr
+                Walten entwöhntes fühl bang lied noch ach. So gesänge und ihr
+              </p>
+              <div class="flex justify-center py-8">
+                <button
+                  class="rounded-full bg-white px-5 py-3 font-Quicksand text-sm text-custom-blue xs:px-8 xs:py-3 sm:py-4 sm:text-base"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div class="rounded-xl bg-custom-blue">
+              <div
+                class="mx-auto -mt-[14%] h-20 w-20 rounded-full border-[2rem] border-solid border-white bg-custom-blue"
+              ></div>
+              <h1
+                class="mt-10 text-center font-Gilroy-Bold text-2xl text-white"
+              >
+                High Standerd
+              </h1>
+              <p
+                class="mx-8 mt-6 text-center font-Quicksand font-thin leading-7 text-white"
+              >
+                Walten entwöhntes fühl bang lied noch ach. So gesänge und ihr
+                Walten entwöhntes fühl bang lied noch ach. So gesänge und ihr
+              </p>
+              <div class="flex justify-center py-8">
+                <button
+                  class="rounded-full bg-white px-5 py-3 font-Quicksand text-sm text-custom-blue xs:px-8 xs:py-3 sm:py-4 sm:text-base"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div class="rounded-xl bg-custom-blue">
+              <div
+                class="mx-auto -mt-[14%] h-20 w-20 rounded-full border-[2rem] border-solid border-white bg-custom-blue"
+              ></div>
+              <h1
+                class="mt-10 text-center font-Gilroy-Bold text-2xl text-white"
+              >
+                Core Values
+              </h1>
+              <p
+                class="mx-8 mt-6 text-center font-Quicksand font-thin leading-7 text-white"
+              >
+                Walten entwöhntes fühl bang lied noch ach. So gesänge und ihr
+                Walten entwöhntes fühl bang lied noch ach. So gesänge und ihr
+              </p>
+              <div class="flex justify-center py-8">
+                <button
+                  class="rounded-full bg-white px-5 py-3 font-Quicksand text-sm text-custom-blue xs:px-8 xs:py-3 sm:py-4 sm:text-base"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mx-auto h-96 w-[45rem] xs:scale-50 sm:scale-75 md:scale-95 lg:mt-24 lg:scale-125 xl:mt-36 xl:scale-150"
+        style="
+          background-image: url(./all-images/landing-page/our-values-comment-card.svg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <p class="mx-12 pt-20 text-center font-Quicksand">
+          "Labore amet labore diam magna labore nonumy amet lorem nonumy eos.
+          Ipsum eos diam et dolor ea, invidunt eos ipsum ipsum voluptua labore
+          Labore amet labore diam magna labore nonumy amet lorem nonumy eos.
+          Ipsum eos diam et dolor ea, invidunt eos"
+        </p>
+        <hr class="mx-auto my-6 w-72 bg-custom-blue" />
+        <p class="text-center text-xl font-medium text-custom-blue">
+          Kevin Levin
+        </p>
+      </div>
+    </section>
+    <div>
+      <img
+        src="./all-images/landing-page/do-defferent-upper.svg"
+        class="-mb-[21%] -mt-[12%] w-full"
+        alt=""
+      />
+    </div>
+    <section class="mx-4 p-2 xs:mx-6 sm:m-20 sm:p-4 md:p-12">
+      <div class="hidden lg:block lg:max-w-7xl">
+        <div class="mx-auto flex justify-between">
+          <div class="w-1/2">
+            <h1 class="font-Gilroy-Black text-4xl text-custom-black">
+              What We Do Different
+            </h1>
+            <p
+              class="mt-8 font-Quicksand font-normal leading-7 text-custom-black"
+            >
+              Buabeleul sumha thekunched sydou wyzeul en engumet iunhum
+              fuhazatum aniath scepsegud, uiraga merth en vh anyath mogomnok. Yg
+              walasth walasth epedek mogomnok. Qui fyom vh wyzeul kyniuhhad
+              ullyetuk ne buthuruth fyaal, therthetyk hul niha kynzathul aniath
+              leg hul sepedyk vh kynaal, werethul kegulm hyul olelothya vh,
+              epedek bua scegegkel eses uiraga symeonnok symeonnok uiraga leg
+              sepedyk vh kynaal, werethul kegulm hyul olelothya vh, epedek bua
+              scegegkel eses uiraga symeonnok symeonnok uiraga sepedyk, ezes
+              wklelue olelothya fyom leg arad buol ezes. Ullyetuk uilaga hyul
+              tuled. Symeonnok myth keguggethuk kynzassal maraggun maraggun owog
+              hullothya egyre arad. En o wegh.
+            </p>
+          </div>
+          <div class="w-1/2">
+            <img src="./all-images/landing-page/do-different-main.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!--! =================================================================================================== -->
+      <div class="m-auto lg:hidden">
+        <div class="rounded-xl bg-custom-white p-7 shadow-xl">
+          <h1 class="font-GilroyBlack text-4xl">What We Do Different</h1>
+          <p class="mt-8 font-Quicksand leading-7">
+            Buabeleul sumha thekunched sydou wyzeul en engumet iunhum fuhazatum
+            aniath scepsegud, uiraga merth en vh anyath mogomnok. Yg walasth
+            walasth epedek mogomnok. Qui fyom vh wyzeul kyniuhhad ullyetuk ne
+            buthuruth fyaal, therthetyk hul niha kynzathul aniath leg hul
+            sepedyk vh kynaal, werethul kegulm hyul olelothya vh, epedek bua
+            scegegkel eses uiraga symeonnok symeonnok uiraga leg sepedyk vh
+            kynaal, werethul kegulm hyul olelothya vh, epedek bua scegegkel eses
+            uiraga symeonnok symeonnok uiraga sepedyk, ezes wklelue olelothya
+            fyom leg arad buol ezes. Ullyetuk uilaga hyul tuled. Symeonnok myth
+            keguggethuk kynzassal maraggun maraggun owog hullothya egyre arad.
+            En o wegh.
+          </p>
+        </div>
+        <div class="-mt-6">
+          <img
+            src="./all-images/landing-page/do-different-main.svg"
+            alt=""
+            class="m-auto w-60 rounded-xl bg-custom-blue bg-opacity-30 p-4 shadow-xl xs:w-72 sm:w-96"
+          />
+        </div>
+      </div>
+      <!--! ================================================================================================= -->
+      <div
+        class="mx-auto mt-28 max-w-7xl rounded-lg bg-custom-violet-002 text-center"
+      >
+        <img
+          src="./all-images/landing-page/do-different-love-sing.svg"
+          class="mx-auto"
+          alt=""
+        />
+        <h1 class="mx-6 -mt-12 text-4xl text-white xs:mx-10 md:mx-16">
+          Sed tempor sed ea sed magna sanctus.
+        </h1>
+        <p class="mt-6 font-Quicksand font-light text-white xs:mx-10 md:mx-20">
+          Magna amet sed sea ea lorem lorem sanctus erat eirmod et. Lorem sit
+          sed ipsum labore consetetur invidunt erat vero sadipscing gubergren.
+          Dolor ut justo amet tempor. Consetetur. et est takimata, est at kasd
+          gubergren magna est elitr dolore stet, sed ipsum labore cotetur
+          invidunt erat vero sadipscing gubergren. Dolor ut justo amet tempor.
+          Consetetur.
+        </p>
+        <div class="mt-8 flex items-center justify-center pb-12 md:ml-3">
+          <button
+            class="flex items-center justify-around rounded-full bg-white py-[0.20rem] pl-1 pr-3 font-Quicksand text-sm font-semibold text-custom-blue xs:py-1 xs:pl-1 xs:pr-4 sm:text-base md:py-2 md:pl-2 md:pr-6 md:text-xl"
+          >
+            <img
+              class="mr-1 w-10 xs:mr-2 sm:w-12 md:mr-4"
+              src="./all-images/landing-page/phone-icon.svg"
+              alt=""
+            />
+            Contact US
+          </button>
+          <button
+            class="ml-4 rounded-full border-[1px] border-white px-4 py-3 font-Quicksand text-sm text-white xs:px-6 xs:py-3 sm:py-4 sm:text-base md:ml-8 md:px-8 md:py-4 md:text-xl"
+          >
+            Learn More
+            <span class="text-sm font-extralight xs:ml-2"
+              ><ion-icon name="chevron-forward"></ion-icon
+            ></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <p class="mt-12">
+      At accusam sed eos takimata takimata at accusam amet gubergren, dolor amet
+      ut eirmod clita labore elitr, sit sea dolor dolor ipsum stet. Erat dolore
+      lorem aliquyam ut consetetur amet, rebum takimata at sed ea erat dolor et,
+      sit est accusam gubergren elitr, diam erat eirmod elitr sea nonumy sit
+      ipsum tempor, sed amet vero stet diam. Dolores invidunt aliquyam magna ut
+      sed amet amet gubergren ut. Sed amet clita dolor labore erat diam vero,
+      est et sed nonumy sea amet dolor diam, ipsum sit tempor diam et labore
+      sadipscing. Accusam lorem kasd sanctus diam erat sadipscing duo clita.
+      Sed.
+    </p>
+    <!--? ================================JAVASCRIPT CODE SRC IS HERE============================== -->
+    <!--? ================================JAVASCRIPT CODE SRC IS HERE============================== -->
+
+    <script src="./src/javascript/landing-page.js"></script>
+
+    <!--? ================================JAVASCRIPT CODE SRC IS HERE============================== -->
+    <!--? ================================JAVASCRIPT CODE SRC IS HERE============================== -->
+    <!-- TODO:===================================================================================== -->
+    <!--? ================================IONICONS SCRIPT CND IS HERE============================== -->
+    <!--? ================================IONICONS SCRIPT CND IS HERE============================== -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!--? ================================IONICONS SCRIPT CND IS HERE============================== -->
+    <!--? ================================IONICONS SCRIPT CND IS HERE============================== -->
+  </body>
+</html>

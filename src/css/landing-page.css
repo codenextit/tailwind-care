@@ -30,6 +30,26 @@
   left: 30%;
   transition: all 2s ease;
 }
+/*! ============================================================================================= */
+/*! ============================================================================================= */
+/*! ============================================================================================= */
+
+
+@media (min-width: 992px) {
+  .footer-background-img-breakpoint {
+    background-image: url(../../all-images/landing-page/footer-background-big-img.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain; 
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-background-img-breakpoint {
+    background-color: #183DB8;
+  }
+}
+
 
 /*! ============================================================================================= */
 /*! ============================================================================================= */
